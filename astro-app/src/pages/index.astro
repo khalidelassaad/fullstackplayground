@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import HelloBlurb from '../components/HelloBlurb';
 ---
 
 <Layout title="Welcome to Khalid's World.">
@@ -12,6 +13,9 @@ import Card from '../components/Card.astro';
 				title="Documentation"
 				body="Learn how Astro works and explore the official API docs."
 			/>
+		</ul>
+		<ul role="list" class="link-card-grid">
+			<HelloBlurb/>
 		</ul>
 	</main>
 </Layout>
