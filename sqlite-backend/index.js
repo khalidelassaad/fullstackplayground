@@ -15,6 +15,16 @@ app.get('/user', async (req, res) => {
   res.json(posts)
 })
 
+app.get('/user/create/:name', async (req, res) => {
+  const name = req.params.name
+  const user = await prisma.user.create({
+    data: {
+      name: name
+    },
+  })
+  res.json(user)
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
