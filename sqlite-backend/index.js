@@ -15,8 +15,8 @@ app.get('/user', async (req, res) => {
   res.json(posts)
 })
 
-app.get('/user/create/:name', async (req, res) => {
-  const name = req.params.name
+app.get('/user/create/', async (req, res) => {
+  const name = req.query.name
   const user = await prisma.user.create({
     data: {
       name: name
