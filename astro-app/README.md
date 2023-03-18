@@ -2,6 +2,10 @@
 
 This is the Astro + React frontend for a fullstack app.
 
+https://docs.astro.build/
+
+https://react.dev/learn
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
