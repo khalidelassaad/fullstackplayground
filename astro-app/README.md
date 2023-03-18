@@ -1,4 +1,4 @@
-# Astro Starter Kit: Basics
+# Astro + React frontend
 
 This is the Astro + React frontend for a fullstack app.
 
